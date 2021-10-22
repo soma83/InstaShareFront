@@ -6,7 +6,7 @@ This project was built using nodejs v12.22.1 and npm 6.14.12. These versions or 
 
 ## Important!!!
 
-This app needs the API Rest app up and running in order to work. For that, please refer to https://github.com/soma83/InstaShareApi.git and follow instructions in there. 
+This app needs the API Rest app up and running in order to work. For that, please refer to https://github.com/soma83/InstaShareBack and follow instructions in there. 
 
 The file `src/config/config.js` contains the required data (such as server, port) to make all the HTTP requests to the API.
 
