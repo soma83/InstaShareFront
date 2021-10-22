@@ -8,6 +8,11 @@ This project was built using nodejs v12.22.1 and npm 6.14.12. These versions or 
 
 This app need the API Rest app up and running in order to work. For that, please refer to https://github.com/soma83/InstaShareApi.git and follow instructions in there. 
 
+The file `src/config/config.js` contains the required data (such as server, port) to make all the HTTP requests to the API.
+
+ 
+By default this project starts using port 3001, if you need to use a different port just edit file `package.json` under `scripts` section the line `"start": "PORT=3001 react-scripts start"`. 
+
 ## How to 
 
 Clone the repo
@@ -27,5 +32,3 @@ Start the project:
 `npm start`, or `yarn start` if using yarn.
 
 Follow the instructions and that's it.
- 
-By default this project starts using port 3001, if you need to use a different port just edit file `package.json` under `scripts` section the line `"start": "PORT=3001 react-scripts start"`. 
